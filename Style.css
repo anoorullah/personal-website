@@ -42,3 +42,37 @@ body {
     height: 200px;
     object-fit: cover;
   }  
+
+  #resume {
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  #resume h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+
+  iframe {
+    display: block;        /* Makes margin auto work */
+    margin: 0 auto;        /* Centers horizontally */
+  }
+
+  p {
+    text-align: center;
+  }
